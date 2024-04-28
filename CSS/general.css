@@ -44,3 +44,7 @@ footer{
     border-left: 2px dashed var(--color-Blanco);
     padding-left: 10px;
 }
+
+.cursor{
+    cursor: pointer;
+}
