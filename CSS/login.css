@@ -1,0 +1,119 @@
+:root{
+    --color-Gris: #788AA6;
+    --color-GrisClaro: #E8F0FE;
+    --color-Blanco: #fff;
+    --color-Celeste: #55AAC6;
+    --color-NaranajaOscuro: #ED7700;
+    --color-NaranjaClaro: #FFAE00;
+    --color-Morado: #8823EC;
+}
+
+.formLogin{
+    display: flex;
+    gap: 17px;
+}
+
+.inputLogin{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLogin input{
+    height: 40px;
+    width: 270px;
+    background-color: var(--color-GrisClaro);
+    border-radius: 20px;
+    border: none;
+    padding-inline: 20px;
+}
+
+.inputLogin a{
+    color: var(--color-NaranjaClaro);
+    font-size: 14px;
+}
+
+.btnLoging{
+    height: 40px;
+    width: 170px;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: var(--color-Celeste);
+    color: var(--color-Blanco);
+    border: none;
+}
+
+main{
+    height: 78%;
+    width: 100%;
+}
+
+.botoneraPages1{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+
+.botoneraPages1 div{
+    height: 70px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: var(--color-NaranjaClaro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.contenidoInfo{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidoInfo img{
+    height: 90%;
+}
+
+.botoneraPages2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
+
+.botoneraPages2 div{
+    height: 65px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoneraPages2 div:nth-child(1){
+    background-color: var(--color-NaranajaOscuro);
+}
+
+.botoneraPages2 div:nth-child(2){
+    background-color: var(--color-Celeste);
+}
+
+.botoneraPages2 div:nth-child(3){
+    background-color: var(--color-Morado);
+}
+
+.titlePage1{
+    font-size: 32px;
+}
+
+.titlePage2{
+    font-size: 20px;
+}
