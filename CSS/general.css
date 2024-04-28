@@ -41,6 +41,6 @@ footer{
 .infoUni{
     display: flex;
     flex-direction: column;
-    border-left: 1px solid var(--color-Blanco);
+    border-left: 2px dashed var(--color-Blanco);
     padding-left: 10px;
 }

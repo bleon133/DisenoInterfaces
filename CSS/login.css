@@ -30,6 +30,7 @@
 .inputLogin a{
     color: var(--color-NaranjaClaro);
     font-size: 14px;
+    text-decoration: none;
 }
 
 .btnLoging{

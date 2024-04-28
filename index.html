@@ -6,36 +6,38 @@
     <title>Login</title>
     <link rel="stylesheet" href="./CSS/general.css">
     <link rel="stylesheet" href="./CSS/login.css">
+    <script src="./JS/jquery-3-7-0-min.js"></script>
+    <script src="./JS/login.js"></script>
 </head>
 <body>
     <header>
         <div>
-            <img src="./Images/miportaluIcon.svg" alt="Logo MiPortalU">
+            <img id="miportalu" src="./Images/miportaluIcon.svg" alt="Logo MiPortalU">
         </div>
-        <form action="#" class="formLogin">
+        <form class="formLogin">
             <div class="inputLogin">
-                <input type="text" name="username" placeholder="Usuario">
-                <a href="">¿No tiene usuario?</a>
+                <input type="text" name="username" id="username" placeholder="Usuario">
+                <a target="_blank" href="https://correo.unab.edu.co/creacion.jsp">¿No tiene usuario?</a>
             </div>
             <div class="inputLogin">
-                <input type="password" name="password" placeholder="Contraseña">
-                <a href="">¿Olvidó la contraseña?</a>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+                <a target="_blank" href="https://correo.unab.edu.co/recuperarClave.jsp">¿Olvidó la contraseña?</a>
             </div>
-            <input class="btnLoging" type="submit" value="Ingresar">
+            <input class="btnLoging" type="button" id="login-btn" value="Ingresar">
         </form>
     </header>
     <main>
         <div class="botoneraPages1">
-            <div>
+            <div id="cosmos">
                 <span>Cosmos</span>
             </div>
-            <div>
+            <div id="tema">
                 <span>Tema</span>
             </div>
-            <div>
+            <div id="biblioteca">
                 <span>Biblioteca</span>
             </div>
-            <div>
+            <div id="bienestar">
                 <span>Bienestar</span>
             </div>
         </div>
@@ -43,15 +45,15 @@
             <img src="./Images/informativo.png" alt="Informativo">
         </div>
         <div class="botoneraPages2">
-            <div>
+            <div id="unab">
                 <span class="titlePage1">unab.edu.co</span>
                 <span class="titlePage2">Público general</span>
             </div>
-            <div>
+            <div id="unabvirtual">
                 <span class="titlePage1">unabVirtual</span>
                 <span class="titlePage2">Estudiantes Virtuales</span>
             </div>
-            <div>
+            <div id="impulsa">
                 <span class="titlePage1">Impulsa</span>
                 <span class="titlePage2">Graduados</span>
             </div>
@@ -66,11 +68,11 @@
             </div>
         </div>
         <div>
-            <img src="./Images/facebookIcon.png" alt="">
-            <img src="./Images/IconX.svg" alt="">
-            <img src="./Images/instagramIcon.png" alt="">
-            <img src="./Images/linkIcon.png" alt="">
-            <img src="./Images/youtubeIcon.png" alt="">
+            <img id="facebook" src="./Images/facebookIcon.png" alt="">
+            <img id="twitter" src="./Images/IconX.svg" alt="">
+            <img id="instagram" src="./Images/instagramIcon.png" alt="">
+            <img id="linkedin" src="./Images/linkIcon.png" alt="">
+            <img id="youtube" src="./Images/youtubeIcon.png" alt="">
         </div>
     </footer>
 </body>
